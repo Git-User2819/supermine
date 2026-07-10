@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "supermine",
+	"version": "${version}",
+	"name": "Super Mine",
+	"description": "Netherite ketmon va belkurak uchun 6x6 Super Mine rejimi (toggle tugma bilan yoqiladi/o'chiriladi)",
+	"authors": ["Bro"],
+	"contact": {},
+	"license": "MIT",
+	"icon": "",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.example.supermine.SuperMineMod"],
+		"client": ["com.example.supermine.SuperMineClient"]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
